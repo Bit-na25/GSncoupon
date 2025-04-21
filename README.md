@@ -1,7 +1,7 @@
  # UX 개선 프로젝트,  <img alt="GSncoupon" src="https://g-sncoupon-u8rd.vercel.app/assets/NavImg/hd_logo.png" />
 
 
-<p>실제 운영 중인 기존 웹사이트를 대상으로 UX 문제점을 분석하고, 메인 페이지를 포함한 주요 기능을 리디자인 및 개발한 프로젝트입니다.<br/>
+<p>실제 운영 중인 기존 웹사이트를 대상으로 UX 문제점을 분석하고,<br/> 메인 페이지를 포함한 주요 기능을 리디자인 및 개발한 프로젝트입니다.<br/>
 위치 기반 쿠폰 추천, 로그인 상태 관리, 검색 필터 개선 등 실사용자 중심의 기능 구현에 중점을 두었습니다.</p>
 
 
@@ -106,6 +106,10 @@
 - **Axios** 로 API 요청을 효율적으로 처리하고 응답/에러 처리를 통합했습니다.
 
 <br/>
+
+## 📈 Task Flow
+![image](https://github.com/user-attachments/assets/19ffbf3f-c10b-4c5e-a8ec-b5dcdc51880e)
+
 
 
 ## 🚀 Documents & Demo
