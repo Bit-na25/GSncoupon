@@ -6,8 +6,13 @@ import LocationCouponSlide from "../components/LocationCouponSlide";
 import BannerNotice from "../components/BannerNotice";
 import TitleMotion from "../components/common/TitleMotion";
 import ExSlider from "../components/common/ExSlider";
+// import ProductRecommend from "./../../detail/product_detail/ProductRecommend";
+// import { useRecommendedProducts } from "../hooks/useRecommendedProducts";
 
 function Section() {
+    // const { recommendedProducts, loading, error } = useRecommendedProducts("커피", 1);
+    // if (loading) return <div>Loading...</div>;
+
     return (
         <div className={styles.main}>
             <QuickList />
@@ -24,8 +29,13 @@ function Section() {
                     </div>
 
                     <ul className={styles.productList}>
-                        {/* 작업하신 상품 컴포넌트 불러올 예정입니다. */}
                         <ExSlider type="best" />
+                        {/* <ProductRecommend /> */}
+                        {/* {recommendedProducts.map((product) => (
+                            <div key={product.id}>
+                                {product.coupon_name} - {product.price}원
+                            </div>
+                        ))} */}
                     </ul>
 
                     <div className={styles.mainProduct}>
@@ -35,7 +45,6 @@ function Section() {
                     </div>
 
                     <ul className={styles.productList}>
-                        {/* 작업하신 상품 컴포넌트 불러올 예정입니다. */}
                         <ExSlider type="discount" />
                     </ul>
 

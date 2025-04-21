@@ -60,7 +60,7 @@ function ExSlider({ type }: SliderProps) {
                 loop={true}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
                 className={styles.productSlider}
-                /*  breakpoint={{
+                /*  breakpoints={{
                     0: {
                         slidesPerView: 2,
                         spaceBetween: 12,

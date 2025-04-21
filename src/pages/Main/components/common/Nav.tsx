@@ -4,7 +4,6 @@ import styles from "./Nav.module.css";
 import { Link } from "react-router-dom";
 import { loginState } from "../../../../constants/loginState";
 import AuthBtn from "./AuthBtn";
-// import { useRecommendedProducts } from "../../hooks/useRecommendedProducts";
 
 function Nav() {
     const [isLoggedIn, setIsLoggedIn] = useRecoilState(loginState);
