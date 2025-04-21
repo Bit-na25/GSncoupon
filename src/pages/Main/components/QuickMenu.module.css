@@ -9,6 +9,7 @@
  .online {
    position: relative;
    display: flex;
+   justify-content: center;
    align-items: center;
    width: 100%;
    box-sizing: border-box;
@@ -101,6 +102,7 @@
    align-items: center;
    padding: 12px 8px;
    background-color: #f7f9fb;
+   border: 3px solid transparent;
    border-radius: 15px;
    transition: transform 0.2s ease;
    cursor: pointer;
@@ -108,7 +110,7 @@
  }
  
  .cateItem:hover {
-   background-color: #b3e3a5;
+   border: 3px dashed var(--color-brand1);
    transform: translateY(-4px);
  }
  
@@ -118,6 +120,7 @@
    margin-bottom: 5px;
    object-fit: contain;
  }
+
  
  .title {
    display: flex;
